@@ -6,7 +6,7 @@ from google.cloud import bigquery
 
 def sample_function_20201203_post_slack(event, context):
 
-    url = "https://hooks.slack.com/services/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"
+    url = "https://hooks.slack.com/services/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"
 
     # Slackへの通知の見せ方次第で変わってくるかと思います
     requests.post(url, data=json.dumps({
